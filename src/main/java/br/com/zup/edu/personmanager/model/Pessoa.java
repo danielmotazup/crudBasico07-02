@@ -34,4 +34,14 @@ public class Pessoa {
     public Long getId() {
         return id;
     }
+
+    public boolean comparaData(){
+        LocalDate dataAtual = LocalDate.now();
+
+        if (dataAtual.getYear() - dataNascimento.getYear() >= 18){
+
+        }
+            return true;
+
+    }
 }
